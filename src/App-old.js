@@ -30,17 +30,6 @@ const App = () => {
   return (
     <>
       <Header />
-      <Switch>
-        <Route exact path='/' />
-        <Route exact path='/about' component={About} />
-        <Route exact path='/Services' component={Services} />
-        <Route exact path='/Services/:first' component={Services} />
-        <Route exact path='/userDummy' component={userPages} />
-        <Route exact path='/userDummy/:asd' component={userPages} />
-        <Route exact path='/DropdownList' component={DropdownList} />
-        <Route exact path='/contact' component={Contact} />
-        <Route component={Error} />
-      </Switch>
     </>
   );
 };
